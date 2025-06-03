@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background: url(p2.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    justify-self: self-start;
+}
+.navbar{
+    background-color: #692231;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-right: 10px;
+    border-radius: 45%;
+    transition-delay: 20s;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.navbar ul{
+    overflow: auto;
+    display: flex;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 3);
+    font-size: 20px;
+    padding: 2px;
+}
+:hover.navbar ul li a {
+    color: #0000007a;
+    background-color: #4a07c746;
+    border-radius: 30%;
+    transition: 1s;
+
+}
+.info{
+    color: #00ff39;
+    font-size: 20px;
+}
+.info{
+    height: 36%;
+    width: 89vw;
+    margin: 10px;
+    position: absolute;
+    bottom: 36vb;
+    right: 7%;
+}
+.infoimg{
+   height: 42%;
+    width: 41vw;
+    display: flex;
+    position: absolute;
+    right: 14%;
+    bottom: 41vb;
+}
+.logo {
+    position: absolute;
+    bottom: 17vb;
+    font-size: 30px;
+    left: 10%;
+}
+.logo a {
+    text-decoration: none;
+    color: #f7f305ad;
+    padding: 10px;
+}
+@media screen and (max-width: 1000px) {
+    .info {
+
+        front size: 20px;
+    }
+    .infoimg {
+        height: 30%;
+        width: 80vw;
+        position: absolute;
+        right: 10%;
+        bottom: 30vb;
+    }
+    .navbar ul li a {
+       
+        font-size: 18px;
+        padding: 5px;
+    }
+    
+     body{
+        text-align: center;
+     }
+}
+@media screen and (max-width: 600px) {
+    .infoimg {
+        height: 30%;
+        width: 80vw;
+        position: absolute;
+        right: 10%;
+        bottom: 30vb;
+    }
+    .navbar ul li a {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .info {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .infoimg {
+        height: 30%;
+        width: 80vw;
+        position: absolute;
+        right: 10%;
+        bottom: 30vb;
+    }
+    .navbar ul li a {
+        font-size: 14px;
+        padding: 5px;
+    }
+    .info {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .infoimg {
+        height: 30%;
+        width: 80vw;
+        position: absolute;
+        right: 10%;
+        bottom: 30vb;
+    }
+    .navbar ul li a {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .info {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .infoimg {
+        height: 30%;
+        width: 80vw;
+        position: absolute;
+        right: 10%;
+        bottom: 30vb;
+    }
+    .navbar ul li a {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .info {
+        font-size: 12px;
+    }
+}
